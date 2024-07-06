@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-style:normal;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    transition: background 0.5s;
+}
+nav ul li:hover{
+    background: #ff532b;
+    border-radius: 2px;
+    border: black;
+}
+.header{
+    background-color: rgb(243, 169, 233);
+}
+
+
+.wrapper{
+    max-width: 850px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0 8px 20px 0px #1f1f1f1a;
+   padding: 20px 10px 20px 10px;
+   
+  
+   
+}
+
+.wrapper .form-left{
+    padding: 0px 10px 0px 20px;
+    position: relative;
+     
+}
+.wrapper .form-right{
+    padding: 0px 0px 5px 20px;
+    position: relative;
+    
+    
+}
+
+.wrapper .form-right label{
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    
+    
+}
+
+.wrapper .form-right .input-field{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #e5e5e5;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    color: rgb(49, 49, 49);
+}
+
+
+.wrapper .contact{
+    padding: 7px;
+    background: #dfb632;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    border: none;
+    margin: 0px 0 0px 0px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.wrapper .contact:hover{
+    background-color: #685608e0;
+}
+
+.wrapper .text{
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 380px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+.small-container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.brands{
+    margin: auto;
+    background-color: black;
+}
+.col-5{
+    width:160px;
+}
+.col-5 img{
+    width: 100%;
+}
+
+.footer{
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding: 60px 100px 20px;
+}
+.footer h3{
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+    margin-bottom: 15px;
+    min-width: 250px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2,.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin: 20px 0;
+}
+.app-logo img{
+    width: 140px;
+}
+footer hr{
+    background: white;
+    height: 1px;
+    margin: 20px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container"></div>
+    <div class="navbar">
+        <nav>
+         <ul>
+             <li><a href="index.html">HOME</a></li>
+              <li><a href="products.html">PRODUCTS</a></li>
+              <li><a href="">CONTACT</a></li>
+         </ul>
+        </nav>
+     </div>
+    </div>
+</div>
+    
+    <h2 style="text-align: center; margin-top: 30px;">Contact Us</h2>
+
+    <div class="wrapper">
+        
+        <div class="form-left">
+           <img src="contact.jpg" alt="">
+            
+        </div>
+            <form class="form-right">
+             
+                <div class="row">
+                <div class="col-sm-6 mb-3">
+                    <label>Name:</label>
+                    <input type="text" name="name" id="name" class="input-field" placeholder="Enter Your Name" required>
+                </div>
+              
+            
+                <div class="mb-3">
+                    <label>E-mail:</label>
+                    <input type="email" class="input-field" name="email" placeholder="Enter Your email" required> 
+                </div>
+
+                <div class="mb-3">               
+                <label>Massage:</label>
+                    <textarea  class="text" type="massage" id="massage" name="massage" placeholder="Enter Your massage"></textarea>
+
+                </div>
+                <div class="form-field">
+                <input  type="submit" value="Submit" class="contact" name="register">
+                </div>
+            </form>
+          
+        </div> 
+    </div>
+
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/logo-coca-cola.png" >
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-godrej.png" >
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-oppo.png" >
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-paypal.png" >
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-philips.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app from Playstore</h3>
+                    <p>All copyrights reserved 2024</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" >
+                        <img src="img/app-store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Customer care</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+  
+</body>
+</html>
